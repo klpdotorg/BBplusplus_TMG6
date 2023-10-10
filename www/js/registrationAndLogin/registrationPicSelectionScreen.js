@@ -223,10 +223,10 @@ Game.registrationPicSelectionScreen.prototype = {
 
 	goback: function (e) {
 		document.removeEventListener('backbutton', _this.goback, false);
-		if (_this.user)
-			_this.state.start('registrationLangSelectionScreen', true, false, _this.user, _this.app_Mode);
-		else
-			_this.state.start('registrationLangSelectionScreen', true, false, _this.user, _this.app_Mode);
+		// if (_this.user)
+		// 	_this.state.start('registrationLangSelectionScreen', true, false, _this.user, _this.app_Mode);
+		// else
+		// 	_this.state.start('registrationLangSelectionScreen', true, false, _this.user, _this.app_Mode);
 	},
 
 	deactivateAll: function (fish, butterfly, flower, parrot, sun, tree) {
